@@ -1,0 +1,6 @@
+CREATE TABLE items (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR (50) NOT NULL,
+    checked BOOLEAN DEFAULT FALSE,
+    updated_at TIMESTAMP NOT NULL
+);
