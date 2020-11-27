@@ -8,7 +8,7 @@ but that is to much for a template.
 
 ## Getting started
 
-The code is self-explanatory but has was to less documentation (I'm sorry! If I find some time in future I will add documentation!). The API has basic 
+The code is self-explanatory but has way to less documentation (I'm sorry! If I find some time in future I will add documentation!). The API has basic 
 CRUD-functionality and uses a postgres DB in this example, but the interesting part is how I built the services and let handlers handle the routes.
 
 I used a YAML-file to manage the secrets. There is a Config-struct in the types package that describes how the YAML-file must look like.
